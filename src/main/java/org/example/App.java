@@ -14,6 +14,6 @@ public class App
         System.out.print( "What is the input string? ");
         String inpString = Obj.nextLine();
         int stringLength = inpString.length();
-        System.out.print(String.format("%s has %d characters.", inpString, stringLength));
+        System.out.print(inpString+" has "+stringLength+" characters.");
     }
 }
